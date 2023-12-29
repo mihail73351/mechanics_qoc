@@ -36,14 +36,17 @@ $$\int_{x_1}^{x_2}dx \cdot \left( \rho \frac{\partial^2 U(x, t)}{\partial t^2} +
 
 отсюда:
 
-$$ \rho \frac{\partial^2 U(x, t)}{\partial t^2} +2 \beta \frac{\partial U(x, t)}{\partial t} - T \frac{\partial^2 U(x, t)}{\partial x^2} = f(x, t) $$
+$$
+\begin{equation}\rho \frac{\partial^2 U(x, t)}{\partial t^2} +2 \beta \frac{\partial U(x, t)}{\partial t} - T \frac{\partial^2 U(x, t)}{\partial x^2} = f(x, t)
+\end{equation}
+$$
 
 или в случае отсутствия вынуждающих сил и сил трения:
-
+$$
 \begin{equation}
 \frac{\partial^2 U(x, t)}{\partial t^2} - \left(\frac{T}{\rho} \right) \frac{\partial^2 U(x, t)}{\partial x^2} = 0
 \end{equation}
-
+$$
 –– обычное волновое уравнение.
 
 
