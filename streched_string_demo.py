@@ -47,7 +47,7 @@ l = 1
 rho = 0.01
 beta = 0.01
 T = 10
-a = 0.2
+#a = 0.2
 
 def rope(t, x, w):
 	value = 0
