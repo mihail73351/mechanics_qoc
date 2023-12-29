@@ -32,21 +32,16 @@ $$T_{r_y} + T_{l_y} = \int_{x_1}^{x_2}dx \cdot\lim_{x_2 \to x_1} T \left( \frac{
 
 Подставляя все выражения в уравнение сил по $OY$:
 
-$$\int_{x_1}^{x_2}dx \cdot \left( \rho \frac{\partial^2 U(x, t)}{\partial t^2} +2 \beta \frac{\partial U(x, t)}{\partial t} - T \frac{\partial^2 U(x, t)}{\partial x^2} = f(x, t)\right)$$
+$$\int_{x_1}^{x_2}dx \cdot \left( \rho \frac{\partial^2 U(x, t)}{\partial t^2} +2 \beta \frac{\partial U(x, t)}{\partial t} - T \frac{\partial^2 U(x, t)}{\partial x^2} - f(x, t)\right) = 0$$
 
 отсюда:
 
-$$
-\begin{equation}\rho \frac{\partial^2 U(x, t)}{\partial t^2} +2 \beta \frac{\partial U(x, t)}{\partial t} - T \frac{\partial^2 U(x, t)}{\partial x^2} = f(x, t)
-\end{equation}
-$$
+$$ \rho \frac{\partial^2 U(x, t)}{\partial t^2} +2 \beta \frac{\partial U(x, t)}{\partial t} - T \frac{\partial^2 U(x, t)}{\partial x^2} = f(x, t) $$
 
 или в случае отсутствия вынуждающих сил и сил трения:
-$$
-\begin{equation}
-\frac{\partial^2 U(x, t)}{\partial t^2} - \left(\frac{T}{\rho} \right) \frac{\partial^2 U(x, t)}{\partial x^2} = 0
-\end{equation}
-$$
+
+$$ \frac{\partial^2 U(x, t)}{\partial t^2} - \left(\frac{T}{\rho} \right) \frac{\partial^2 U(x, t)}{\partial x^2} = 0 $$
+
 –– обычное волновое уравнение.
 
 
