@@ -28,9 +28,20 @@ $$\sin \alpha_l(x) = \sin \alpha_r(x) \approx \tan \alpha(x) \approx \frac{\part
 
 при $x_2 \to x_1$, а также $\left|T_{r}\right| = \left|\ T_{l}\right| = T$, получим:
 
-$$T_{r_y} + T_{l_y} = \int_{x_1}^{x_2}dx \cdot\lim_{x_2 \to x_1} T \left( \frac{\partial U(x_2, t)}{\partial x} - \frac{\partial U(x_1, t)}{\partial x} \right) = T \int_{x_1}^{x_2}dx \cdot\frac{\partial^2 U(x, t)}{\partial x^2}$$
+$$T_{r_y} + T_{l_y} = \int_{x_1}^{x_2}dx \cdot\lim_{x_2 \to x_1} T \left( \frac{\partial U(x_2, t)}{\partial x} - \frac{\partial U(x_1, t)}{\partial x} \right) = T \int_{x_1}^{x_2}dx \cdot \frac{\partial^2 U(x, t)}{\partial x^2}$$
 
 Подставляя все выражения в уравнение сил по $OY$:
 
-$$\int_{x_1}^{x_2}dx \cdot$$
+$$\int_{x_1}^{x_2}dx \cdot \left( \rho \frac{\partial^2 U(x, t)}{\partial t^2} +2 \beta \frac{\partial U(x, t)}{\partial t} - T \frac{\partial^2 U(x, t)}{\partial x^2} = f(x, t)\right)$$
+
+отсюда:
+
+$$ \rho \frac{\partial^2 U(x, t)}{\partial t^2} +2 \beta \frac{\partial U(x, t)}{\partial t} - T \frac{\partial^2 U(x, t)}{\partial x^2} = f(x, t) $$
+
+или в случае отсутствия вынуждающих сил и сил трения:
+
+$$ \frac{\partial^2 U(x, t)}{\partial t^2} - \left(\frac{T}{\rho} \right) \frac{\partial^2 U(x, t)}{\partial x^2} = 0 $$
+
+–– обычное волновое уравнение.
+
 
