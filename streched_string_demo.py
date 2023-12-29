@@ -59,7 +59,7 @@ def rope(t, x, w):
 from matplotlib import pyplot as plt
 x = np.linspace(0, 1, 10)
 t = np.linspace(1, 50, 1000)
-w = np.linspace(20, 500, 100)
+w = np.linspace(50, 150, 100)
 
 
 
