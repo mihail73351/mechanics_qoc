@@ -1,2 +1,3 @@
 # mechanics_qoc
-question of choice
+
+![alt text for screen readers](/img/string_theory.png "Text to show on mouseover")
