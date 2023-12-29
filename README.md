@@ -107,14 +107,13 @@ $$\omega_{res}(m) = \sqrt{\frac{-\beta^2 + \frac{\rho \pi^2 T m^2}{l^2}}{\rho^2}
 
 
 
+## Практическая часть
 
+Для наблюдения вышеописанных колебаний, соберем установку:
 
+<!-- <img src="img/eq_solve.png" alt="drawing" width="700"/> -->
 
-
-
-
-
-
-
+![image info](/img/set_1.jpeg)
+![image info](/img/set_2.jpeg)
 
 
