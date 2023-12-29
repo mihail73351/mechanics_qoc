@@ -79,10 +79,22 @@ def maxim(w):
 
 				
 			
-			
-	
 
-plt.plot(w, maxim(w))
+W = maxim(w)
+plt.plot(w, W)
+
+a0 = np.max(W)
+from UliEngineering.Math.Decibel import *
+import matplotlib.ticker as mtick
+def decibel_formatter(v0 = a0, unit='dB'):
+	def format_value(value, pos=None):
+		dB = value_to_dB(value, v0=v0)
+		return r'%.0f dB' %dB
+	return format_value
+# Usage example:
+# plt.gca().set_yscale("log") # Optional
+plt.gca().yaxis.set_major_formatter(mtick.FuncFormatter(decibel_formatter()))
+
 plt.show()
 
 
