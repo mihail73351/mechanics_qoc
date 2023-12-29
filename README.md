@@ -1,3 +1,3 @@
 # mechanics_qoc
 
-![alt text for screen readers](/img/string_theory.png "Text to show on mouseover")
+<img src="img/string_theory.png" alt="drawing" width="300"/>
