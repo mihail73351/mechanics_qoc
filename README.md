@@ -40,8 +40,12 @@ $$ \rho \frac{\partial^2 U(x, t)}{\partial t^2} +2 \beta \frac{\partial U(x, t)}
 
 или в случае отсутствия вынуждающих сил и сил трения:
 
-$$ \frac{\partial^2 U(x, t)}{\partial t^2} - \left(\frac{T}{\rho} \right) \frac{\partial^2 U(x, t)}{\partial x^2} = 0 $$
+\begin{equation}
+\frac{\partial^2 U(x, t)}{\partial t^2} - \left(\frac{T}{\rho} \right) \frac{\partial^2 U(x, t)}{\partial x^2} = 0
+\end{equation}
 
 –– обычное волновое уравнение.
+
+
 
 
