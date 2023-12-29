@@ -8,29 +8,21 @@
 
 Расположим систему координат так, чтобы положение равновесия совпадало с осью $OX$. Пусть колебания струны будут строго поперечными в плоскости $XOY$, тогда обозначим через $U(x, t)$ профиль струны в каждый момент времени.
 
-Рассмотрим участок профиля $(x_1, x_2)$, пусть на него действует результирующая внешних сил $f(x, t)$, и сила трения $f_{fr}(x) = \mu \pdv{U(x, t)}{t}$. К концам участка приложены силы натяжения $T_l$ --- слева,
-$T_r$ --- справа, направленные по касательным к профилю струны. Тогда согласно II Закону Ньютона:
-\begin{equation}
-        \begin{gathered}
-                OY: \quad T_{r_y} + T_{l_y} + f(x) - \mu \pdv{U(x, t)}{t}  = \rho dx \pdv[2]{U(x, t)}{t};\\
-                OX: \quad T_{r_x} + T_{l_x} = 0,   
-        \end{gathered}  
-\end{equation}
-где через $x$ и $y$ обозначены проекции на соответствующие координаты. Исходя из рис. \ref{fig:string_theory}
-эти проекции:
-\begin{equation}
-        \begin{gathered}
-                T_{l_y} = - T_l \sin \alpha_l,\\
-                T_{r_y} = T_r \sin \alpha_r,\\
-                T_{l_x} = - \sqrt{1-\sin{^2} \alpha_l},\\
-                T_{r_x} = \sqrt{1-\sin{^2} \alpha_r};\\
-        \end{gathered}
-        \label{eq:proekcii}
-\end{equation}
+Рассмотрим участок профиля $(x_1, x_2)$, пусть на него действует результирующая внешних сил $f(x, t)$, и сила трения $\displaystyle f_{fr}(x) = 2 \beta \frac{\partial U(x, t)}{\partial t}$. К концам участка приложены силы натяжения $T_l$ –– слева, $T_r$ –– справа, направленные по касательным к профилю струны. Тогда согласно II Закону Ньютона:
+
+$$ OY: \quad T_{r_y} + T_{l_y} + f(x, t) - 2 \beta \frac{\partial U(x, t)}{\partial t}  = \rho dx \frac{\partial^2 U(x, t)}{\partial t ^2};$$
+
+$$ OX: \quad T_{r_x} + T_{l_x} = 0, $$
+
+где через $x$ и $y$ обозначены проекции на соответствующие координаты. Эти проекции:
+
+$$ T_{l_y} = - T_l \sin \alpha_l, $$
+$$ T_{r_y} = T_r \sin \alpha_r, $$
+$$ T_{l_x} = - \sqrt{1-\sin{^2} \alpha_l}, $$
+$$ T_{r_x} = \sqrt{1-\sin{^2} \alpha_r}; $$
 
 Пусть струна совершает малые колебания, а ее профиль всюду гладок и не имеет перегибов, тогда все углы $\alpha_l(x)$ и
 $\alpha_r(x)$ будем считать малыми при любом $t$. Тогда можно считать:
-\begin{equation}
-        \sin \alpha_l(x) = \sin \alpha_r(x) \approx \tan \alpha(x) \approx \pdv{U(x,t)}{x}
-\end{equation}
+
+$$\sin \alpha_l(x) = \sin \alpha_r(x) \approx \tan \alpha(x) \approx \frac{\partial U(x, t)}{\partial x}$$
 
