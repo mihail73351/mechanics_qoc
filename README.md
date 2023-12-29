@@ -117,8 +117,6 @@ $$\omega_{res}(m) = \sqrt{\frac{-\beta^2 + \frac{\rho \pi^2 T m^2}{l^2}}{\rho^2}
 
 Для наблюдения вышеописанных колебаний, соберем установку:
 
-<!-- <img src="img/eq_solve.png" alt="drawing" width="700"/> -->
-
 ![image info](/img/set_1.jpeg)
 ![image info](/img/set_2.jpeg)
 
@@ -139,6 +137,46 @@ $$\omega_{res}(m) = \sqrt{\frac{-\beta^2 + \frac{\rho \pi^2 T m^2}{l^2}}{\rho^2}
 
 Подключим катушку сенсор к одному каналу осциллографа, а сигнал с генератора также подадим на другой канал осциллографа.
 
-Цифровой осциллограф предоставляет возможность снятия амплитудно частотных характеристик системы, тогда для разных параметров нагрузки снимем АЧХ, 
+Цифровой осциллограф предоставляет возможность снятия амплитудно частотных характеристик системы, тогда для разных параметров нагрузки снимем АЧХ:
 
+---
 
+<img src="data/scope_16.png" alt="drawing" width="600"/>
+
+    T = 1.88 N
+
+    F_res(m = 1) = 26.9  Hz
+    F_res(m = 1) = 53.6  Hz
+    F_res(m = 1) = 80.1  Hz
+
+---
+
+<img src="data/scope_19.png" alt="drawing" width="600"/>
+
+    T = 3.80 N
+
+    F_res(m = 1) = 37.4  Hz
+    F_res(m = 1) = 74.9  Hz
+    F_res(m = 1) = 112.3 Hz
+
+---
+
+<img src="data/scope_20.png" alt="drawing" width="600"/>
+
+    T = 5.74 N
+
+    F_res(m = 1) = 45.9  Hz
+    F_res(m = 1) = 91.9  Hz
+    F_res(m = 1) = 137.9 Hz
+
+---
+
+<img src="data/scope_23.png" alt="drawing" width="600"/>
+
+    T = 7.65 N
+
+    F_res(m = 1) = 52.9  Hz
+    F_res(m = 1) = 105.7 Hz
+    F_res(m = 1) = 158.7 Hz
+
+---
