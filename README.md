@@ -18,7 +18,7 @@ $$ OX: \quad T_{r_x} + T_{l_x} = 0, $$
 
 где через $x$ и $y$ обозначены проекции на соответствующие координаты. Эти проекции:
 
-$$ T_{l_y} = - T_l \sin{\alpha_l}, $$
+$$ T_{l_y} = - T_l \sin (\alpha_l), $$
 $$ T_{r_y} = T_r \sin{\alpha_r}, $$
 $$ T_{l_x} = - \sqrt{1-\sin{^2} \alpha_l}, $$
 $$ T_{r_x} = \sqrt{1-\sin{^2} \alpha_r}; $$
